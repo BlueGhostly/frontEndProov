@@ -1,0 +1,78 @@
+footer{
+	min-height: 8em;
+	max-height: 10em;
+	background-color: #3b3530;
+	color:white;
+}
+header{
+	width: 100%;
+}
+.footerContent{
+	margin: auto;
+	padding-top: 2em;
+	line-height: 2em;
+}
+.footerContent a{
+	color:rgb(232,209,81);
+	text-decoration: underline;
+}
+#kampaaniaTingimusedLink{
+	cursor:pointer;
+}
+.articleBox{
+	background-color: #fffdef;
+} 
+.nextSubjectButton{
+	display: block;
+	text-align:center;
+	padding-bottom: 1em;
+}
+.articleCheckboxLabel{
+	cursor:pointer;
+	padding-left: 1em;
+}
+.articleCheckbox{
+	padding-right: 1em;
+}
+input[type=checkbox] {
+  zoom: 2;
+}
+
+.panel{
+    border-width: 0px 0px 1px 0px;
+    border-color: #ffe756;
+}
+.panel-default>.panel-heading{
+	background-color: white;
+}
+.panel-body{
+	border-width: 1px 0px 1px 0px !important;
+	border-color: #ffe756 !important;
+}
+.cta{
+	position: absolute;
+	cursor: pointer;
+	opacity: 0.6;  
+	top: 0; 
+	margin: 22% 0% 0% 25%; 
+}
+.cta:hover{
+	opacity: 1;
+}
+@media screen and (max-width: 609px) {
+    .cta{
+    	margin:55% 0% 0% 15%;
+    }
+}
+.sectionHeaders{
+	font-weight: bold;
+	color: rgb(63, 41, 22);
+}
+.customTextStyle{
+	color: rgb(149, 28, 0);
+	text-decoration: underline;
+  	line-height: 1.5;
+}
+.imelineAjalugu{
+	margin-top: 2em;
+}
